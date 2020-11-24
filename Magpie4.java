@@ -117,7 +117,7 @@ public class Magpie4
             {
                 //code
                 String lastLet = statement.substring(lastIndex, lastIndex+1);
-                if(lastLet.compareTo("a") < 0 || lastLet.compareTo("z") > 0)
+                if(lastLet.compareTo("a") < 97 || lastLet.compareTo("z") > 122)
                 {
                     back = true;
                 }
