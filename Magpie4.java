@@ -99,7 +99,7 @@ public class Magpie4
             else
             {
                 //code
-                String firstLet = statement.substring(index-1, index);
+                String firstLet = statement.substring(index-1);
                 if(firstLet.compareTo("a") < 0 || firstLet.compareTo("z") > 0)
                 {
                     front = true;
